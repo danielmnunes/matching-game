@@ -3,10 +3,15 @@ import './src/styles/generic/reset.css'
 import './src/styles/elements/base.css'
 
 import BoardGame from "./src/objects/BoardGame"
+import PlayerGame from './src/components/PlayerGame'
 
 const $root = document.querySelector("#root")
-const $htmlBoardGame = BoardGame(6)
 
-
-
-$root.insertAdjacentHTML("beforeend", $htmlBoardGame )
+$root.insertAdjacentHTML(
+    "beforeend",
+    ` 
+    ${PlayerGame("Player1")}
+    ${PlayerGame("Player2")}
+    ${BoardGame(6)}
+    `
+)
