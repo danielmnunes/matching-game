@@ -1,3 +1,3 @@
 export default {
-    "base": "/matching-game/"
+  base: '/matching-game/'
 }

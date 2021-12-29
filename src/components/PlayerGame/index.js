@@ -1,2 +1,2 @@
-import "./style.css"
-export default content => /*html*/`<p class="player-name">${content}</p>`
+import './style.css'
+export default content => /* html */`<p class='player-name'>${content}</p>`
