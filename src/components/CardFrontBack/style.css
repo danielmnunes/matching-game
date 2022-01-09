@@ -1,16 +1,17 @@
-.card-front-back{
+.card-front-back {
     --width: 130px;
     --height: 160px;
+
     width: var(--width);
     height: var(--height);
     position: relative;
-    transform-style: preserve-3d;
-    transition: transform 600ms cubic-bezier(0.42, 0, 0.54, 1.68);
+    transform-style: preserve-3d; 
+    transition: transform 400ms ease-in-out;   
     cursor: pointer;
 }
 
-.card-front-back.-active{
-    transform: rotateY(180deg);
+.card-front-back.-active {
+    transform: rotateY(180deg)
 }
 
 .card-front-back > .card {
@@ -19,7 +20,7 @@
 }
 
 .card-front-back > .card.-back {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg)
 }
 
 .card-front-back > .card.-back > .card-game {
