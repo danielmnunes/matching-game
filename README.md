@@ -3,5 +3,5 @@
 <p align="center">
 <a href="https://danielmnunes.github.io/matching-game/">Clique aqui</a> para acessar o jogo hospedado no Github Pages</p>
 <h1 align="center">
-  <img alt="Foto preview" src="./public/assets/img/preview.jpeg" />
+  <img alt="Foto preview" src="/public/assets/img/preview.jpeg" />
 </h1>
